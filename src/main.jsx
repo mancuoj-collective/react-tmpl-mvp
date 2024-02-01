@@ -4,6 +4,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <h1 className='text-4xl font-serif'>Hello React</h1>
+    <h1 className="font-serif text-4xl">Hello React</h1>
   </React.StrictMode>
 )
