@@ -8,8 +8,5 @@
   "prettier.printWidth": 140,
   "editor.quickSuggestions": {
     "strings": "on"
-  },
-  "files.associations": {
-    "*.css": "tailwindcss"
   }
 }
