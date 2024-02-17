@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply min-h-dvh flex flex-col justify-center items-center;
+    @apply flex min-h-dvh flex-col items-center justify-center;
   }
 }
