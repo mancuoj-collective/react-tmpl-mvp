@@ -5,6 +5,7 @@
     "usernamehw.errorlens",
     "quick-lint.quick-lint-js",
     "piyushsarkar.sort-css-properties",
-    "trapfether.tailwind-raw-reorder"
+    "trapfether.tailwind-raw-reorder",
+    "hyoban.tailwindcss-classname-highlight"
   ]
 }
