@@ -16,8 +16,4 @@ export default {
     require("@tailwindcss/container-queries"),
     require("daisyui"),
   ],
-  daisyui: {
-    themes: "all",
-    darkTheme: "dracula",
-  },
 }
