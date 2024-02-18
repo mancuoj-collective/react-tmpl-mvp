@@ -14,5 +14,10 @@ export default {
     require("@tailwindcss/forms"),
     require("@tailwindcss/aspect-ratio"),
     require("@tailwindcss/container-queries"),
+    require("daisyui"),
   ],
+  daisyui: {
+    themes: "all",
+    darkTheme: "dracula",
+  },
 }
