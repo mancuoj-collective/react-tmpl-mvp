@@ -6,6 +6,7 @@
     "quick-lint.quick-lint-js",
     "piyushsarkar.sort-css-properties",
     "trapfether.tailwind-raw-reorder",
-    "hyoban.tailwindcss-classname-highlight"
+    "hyoban.tailwindcss-classname-highlight",
+    "antfu.iconify"
   ]
 }
