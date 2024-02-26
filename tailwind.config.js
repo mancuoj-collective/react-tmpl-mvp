@@ -16,4 +16,8 @@ export default {
     require("@tailwindcss/container-queries"),
     require("daisyui"),
   ],
+  daisyui: {
+    themes: ["lemonade", "dim"],
+    darkTheme: "dim",
+  },
 }
