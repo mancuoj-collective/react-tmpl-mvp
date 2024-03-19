@@ -18,8 +18,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   ts-clsx:
-    specifier: ^2.0.0
-    version: 2.0.0
+    specifier: 2.0.1-beta.15
+    version: 2.0.1-beta.15
 
 devDependencies:
   '@egoist/tailwindcss-icons':
@@ -1719,8 +1719,8 @@ packages:
       is-number: 7.0.0
     dev: true
 
-  /ts-clsx@2.0.0:
-    resolution: {integrity: sha512-E+ruW8mVvAO0kS9ERkJG0LfIOf6kGfRwuVa4/XFfcSezFcBuD8ktJjeXf9OjbQRArcYeXfxSiLyyu6L+z7CFhA==}
+  /ts-clsx@2.0.1-beta.15:
+    resolution: {integrity: sha512-sex6fNn7Ro8dhkxMvFcNu2tQmJDov/zjBVocVRT9xc8psiVf+pSUAHURpoIVquKdRGJ3039RDrm0XFCQQBrEsA==}
     dev: false
 
   /ts-interface-checker@0.1.13:
