@@ -7,29 +7,29 @@
   },
   "dependencies": {
     "@mancuoj/hooks": "^0.0.3",
-    "framer-motion": "^11.0.18",
+    "framer-motion": "^11.0.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ts-clsx": "2.4.0"
   },
   "devDependencies": {
     "@egoist/tailwindcss-icons": "^1.7.4",
-    "@iconify-json/lucide": "^1.1.176",
+    "@iconify-json/lucide": "^1.1.178",
     "@mancuoj/prettier-config": "^0.0.3",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
-    "@types/react": "^18.2.67",
+    "@types/react": "^18.2.70",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react-swc": "^3.6.0",
-    "autoprefixer": "^10.4.18",
+    "autoprefixer": "^10.4.19",
     "daisyui": "latest",
-    "postcss": "^8.4.37",
+    "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "tailwind-merge": "^2.2.2",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.2.2"
+    "vite": "^5.2.6"
   },
   "prettier": "@mancuoj/prettier-config"
 }
