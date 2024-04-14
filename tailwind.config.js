@@ -11,13 +11,11 @@ export default {
       collections: getIconCollections(['lucide']),
     }),
     require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/container-queries'),
+    require('tailwind-scrollbar'),
     require('daisyui'),
   ],
   daisyui: {
-    themes: ['lemonade', 'dim'],
-    darkTheme: 'dim',
+    themes: ['light', 'dark'],
+    darkTheme: 'dark',
   },
 }
