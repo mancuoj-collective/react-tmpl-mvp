@@ -6,7 +6,6 @@
     "format": "prettier --cache --write ."
   },
   "dependencies": {
-    "framer-motion": "latest",
     "jotai": "latest",
     "react": "latest",
     "react-dom": "latest",
