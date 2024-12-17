@@ -2,33 +2,36 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "format": "prettier --cache --write ."
+    "build": "vite build"
   },
   "dependencies": {
+    "@tanstack/react-query": "latest",
+    "@tanstack/react-query-devtools": "latest",
+    "framer-motion": "latest",
     "jotai": "latest",
+    "ofetch": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "clsx": "latest",
-    "wouter": "latest"
+    "react-router": "latest",
+    "usehooks-ts": "latest",
+    "zustand": "latest"
   },
   "devDependencies": {
     "@egoist/tailwindcss-icons": "latest",
+    "@fontsource-variable/dm-sans": "latest",
     "@iconify-json/lucide": "latest",
-    "@mancuoj/prettier-config": "latest",
-    "@tailwindcss/typography": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "@vitejs/plugin-react-swc": "latest",
+    "@vitejs/plugin-react": "latest",
     "autoprefixer": "latest",
+    "clsx": "latest",
     "daisyui": "latest",
     "postcss": "latest",
-    "prettier": "latest",
     "tailwind-merge": "latest",
     "tailwind-scrollbar": "latest",
     "tailwindcss": "latest",
+    "tailwindcss-animate": "latest",
+    "tailwindcss-motion": "latest",
     "vite": "latest"
-  },
-  "prettier": "@mancuoj/prettier-config",
-  "packageManager": "pnpm@9.12.2"
+  }
 }

@@ -1,17 +1,26 @@
-const { iconsPlugin, getIconCollections } = require('@egoist/tailwindcss-icons')
+import { iconsPlugin, getIconCollections } from '@egoist/tailwindcss-icons'
 
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['DM Sans Variable', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     iconsPlugin({
       collections: getIconCollections(['lucide']),
+      scale: 1.15,
     }),
-    require('@tailwindcss/typography'),
-    require('tailwind-scrollbar'),
+    require('tailwind-scrollbar')({
+      nocompatible: true,
+      preferredStrategy: 'pseudoelements',
+    }),
+    require('tailwindcss-motion'),
+    require('tailwindcss-animate'),
     require('daisyui'),
   ],
   daisyui: {
