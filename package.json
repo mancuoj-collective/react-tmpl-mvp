@@ -9,7 +9,7 @@
     "@tanstack/react-query-devtools": "latest",
     "framer-motion": "latest",
     "jotai": "latest",
-    "ofetch": "latest",
+    "ky": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-router": "latest",
