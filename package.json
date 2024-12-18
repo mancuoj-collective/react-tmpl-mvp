@@ -9,6 +9,8 @@
     "@tanstack/react-query-devtools": "latest",
     "framer-motion": "latest",
     "jotai": "latest",
+    "jotai-dark": "latest",
+    "jotai-effect": "latest",
     "ky": "latest",
     "react": "latest",
     "react-dom": "latest",

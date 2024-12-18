@@ -13,7 +13,6 @@ export default {
   plugins: [
     iconsPlugin({
       collections: getIconCollections(['lucide']),
-      scale: 1.15,
     }),
     require('tailwind-scrollbar')({
       nocompatible: true,
@@ -24,7 +23,8 @@ export default {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ['emerald', 'black'],
+    themes: ['corporate', 'black'],
     darkTheme: 'black',
   },
+  darkMode: ['selector', '[data-theme="black"]'],
 }
