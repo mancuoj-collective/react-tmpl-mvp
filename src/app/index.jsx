@@ -4,8 +4,8 @@ import { DarkModeToggle } from '../components/dark-mode-toggle'
 export function App() {
   return (
     <div className="font-sans antialiased">
-      <div className="flex min-h-svh flex-col items-center justify-center gap-5">
-        <button className="btn font-semibold">React - Tmpl - MVP</button>
+      <div className="flex min-h-svh flex-col items-center justify-center gap-6">
+        <button className="btn btn-outline font-semibold">React - Tmpl - MVP</button>
         <div className="flex items-center gap-2">
           <DarkModeToggle />
           <a
